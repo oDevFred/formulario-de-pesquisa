@@ -39,12 +39,4 @@ formulario-pesquisa/
 └── README.md           # Documentação do projeto
 ```
 
-## Personalização
-
-Você pode personalizar o formulário editando os arquivos `index.html` e `styles.css`. Aqui estão algumas sugestões:
-
-- **Cores**: Altere as cores no arquivo CSS para combinar com sua identidade visual.
-- **Texto**: Modifique os textos e placeholders para refletir o propósito do seu formulário.
-- **Opções**: Adicione ou remova opções nos menus suspensos, radio buttons e checkboxes.
-
 Desenvolvido com ❤️ por [oDevFred](https://github.com/oDevFred)
