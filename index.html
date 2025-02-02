@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Pesquisa de Satisfação</h1>
+        <p id="description">Agradecemos sua participação nesta pesquisa de satisfação. Sua opinião é muito importante!</p>
+    </header>
+
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="form-group">
+            <label id="email-label" for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+        </div>
+
+        <div class="form-group">
+            <label id="number-label" for="number">Idade</label>
+            <input type="number" id="number" name="age" min="12" max="120" placeholder="Idade" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dropdown">Como você nos conheceu?</label>
+            <select id="dropdown" name="referral">
+                <option value="">Selecione uma opção</option>
+                <option value="friend">Indicação de amigo</option>
+                <option value="social">Redes sociais</option>
+                <option value="ad">Publicidade</option>
+                <option value="other">Outros</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Você recomendaria nossos serviços?</p>
+            <label>
+                <input type="radio" name="recommend" value="definitely" checked> Com certeza
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="maybe"> Talvez
+            </label>
+            <label>
+                <input type="radio" name="recommend" value="not-sure"> Não tenho certeza
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Quais serviços você utilizou?</p>
+            <label>
+                <input type="checkbox" value="consulting" name="services"> Consultoria
+            </label>
+            <label>
+                <input type="checkbox" value="training" name="services"> Treinamentos
+            </label>
+            <label>
+                <input type="checkbox" value="support" name="services"> Suporte Técnico
+            </label>
+        </div>
+
+        <div class="form-group">
+            <label for="comments">Comentários adicionais:</label>
+            <textarea id="comments" name="comments" placeholder="Deixe seu comentário aqui..."></textarea>
+        </div>
+
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+</body>
+</html>
